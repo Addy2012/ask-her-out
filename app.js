@@ -16,5 +16,5 @@ function moveButton() {
 }
 
 function goToCalenderPage() {
-    alert("aapas mein baat kr lo")
+    alert("apne item se baat krlo")
 }
