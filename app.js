@@ -16,5 +16,28 @@ function moveButton() {
 }
 
 function goToCalenderPage() {
-    alert("apne item se baat krlo")
+    let dt = document.getElementById("yesButton").value
+    let datetimevalue = new Date(dt)
+    const locale = 'en-IN';
+
+    const options = {
+        year: 'numeric',
+        month: 'numeric',
+        day: 'numeric',
+        hour: 'numeric',
+        minute: 'numeric',
+        second: 'numeric',
+        hour12: false, // Use 24-hour clock
+        timeZoneName: 'short',
+    };
+
+    const indianDateTime = new Intl.DateTimeFormat(locale, options).format(datetimevalue);
+
+
+    if (dt.length > 0) {
+        alert(indianDateTime)
+    }
+    else {
+        console.log("hi ", indianDateTime)
+    }
 }
