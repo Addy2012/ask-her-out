@@ -35,7 +35,7 @@ function goToCalenderPage() {
 
 
     if (dt.length > 0) {
-        alert("ok so we will meet at ",indianDateTime)
+        alert("ok so finalised time is " + indianDateTime)
     }
     else {
         console.log("hi ", indianDateTime)
