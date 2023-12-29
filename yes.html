@@ -3,7 +3,7 @@
   <head>
     <link rel="stylesheet" href="style.css" />
     <script src="./app.js"></script>
-        <title>Anand Web World</title>
+    <title>Anand Web World</title>
   </head>
   <body>
     <div class="container">
@@ -16,8 +16,15 @@
           alt="Cute animated illustration"
         />
       </div>
-      <button class="btn" id="yesButton" onclick="goToCalenderPage()">
-        Let's Fix a Date
+      <input
+        type="datetime-local"
+        placeholder="let's fix the date"
+        class="btn"
+        id="yesButton"
+      />
+
+      <button class="confirm-btn" onclick="goToCalenderPage()">
+        confirm your date
       </button>
     </div>
   </body>
