@@ -50,7 +50,8 @@ body {
     margin-left: 20px;
 }
 
-.btn {
+.btn,
+button {
     background-color: #017cff;
     color: white;
     font-weight: 600;
@@ -66,9 +67,14 @@ body {
     box-shadow: 0 3px 3px black;
 }
 
-.btn:hover {
+.btn:hover,
+button:hover {
     background-color: #ffffff;
     color: #017cff;
+}
+
+.confirm-btn {
+    margin-top: 105px;
 }
 
 .gif_container {
